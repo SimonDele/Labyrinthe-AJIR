@@ -1,0 +1,16 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Maze
+    </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content (touchmove)="touchEvent($event)" (touchend)="touchEnd()"> 
+  <maze [maze]=maze> </maze>
+
+
+</ion-content>
+
